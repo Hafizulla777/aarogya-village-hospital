@@ -834,7 +834,6 @@ strong { color: var(--primary); }
 }
 @media (min-width: 768px) { .footer-bottom { flex-direction: row; justify-content: space-between; } }
 .footer-bottom p { font-size: var(--fs-xs); color: rgba(255,255,255,0.55); margin: 0; }
-.footer-disclaimer { font-size: var(--fs-xs); color: rgba(255,255,255,0.45); font-style: italic; max-width: 720px; line-height: 1.6; }
 
 /* ============================ FLOATING WHATSAPP ============================ */
 .fab-whatsapp {
