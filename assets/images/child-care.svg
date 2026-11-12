@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#EAF4EE" />
+  <circle cx="670" cy="120" r="150" fill="#DCEDE3" />
+  <circle cx="120" cy="500" r="130" fill="#DCEDE3" />
+  <rect x="140" y="120" width="520" height="340" rx="18" fill="#FFFFFF" stroke="#C9DED2" stroke-width="3" />
+  <g>
+    <circle cx="290" cy="205" r="42" fill="#EFC49E" />
+    <path d="M248 200 a42 42 0 0 1 84 0 q-42 -20 -84 0 Z" fill="#2B2B2B" />
+    <path d="M228 430 v-95 a62 62 0 0 1 124 0 v95 Z" fill="#FFFFFF" stroke="#C9DED2" stroke-width="3" />
+    <path d="M252 256 q-12 62 4 122" stroke="#1D5B45" stroke-width="7" fill="none" stroke-linecap="round" />
+    <path d="M328 256 q12 62 -4 122" stroke="#1D5B45" stroke-width="7" fill="none" stroke-linecap="round" />
+    <circle cx="356" cy="386" r="13" fill="#1D5B45" />
+    <path d="M346 330 q56 -2 74 -44" stroke="#EFC49E" stroke-width="19" stroke-linecap="round" fill="none" />
+  </g>
+  <g>
+    <circle cx="470" cy="300" r="30" fill="#F5D6BC" />
+    <path d="M440 296 a30 30 0 0 1 60 0 q-30 -14 -60 0 Z" fill="#3A2E28" />
+    <path d="M434 430 v-56 a38 38 0 0 1 76 0 v56 Z" fill="#E9B44C" />
+    <path d="M446 392 h52" stroke="#FFFFFF" stroke-width="4" opacity="0.8" />
+    <path d="M510 372 q34 -6 44 -40" stroke="#F5D6BC" stroke-width="15" stroke-linecap="round" fill="none" />
+    <path d="M444 372 q-30 -4 -40 -34" stroke="#F5D6BC" stroke-width="15" stroke-linecap="round" fill="none" />
+  </g>
+  <g>
+    <rect x="570" y="140" width="130" height="110" rx="16" fill="#1D5B45" />
+    <path d="M635 168 q26 14 26 36 a26 26 0 0 1 -52 0 q0 -22 26 -36 Z" fill="#FFFFFF" />
+    <path d="M635 196 v24" stroke="#1D5B45" stroke-width="6" stroke-linecap="round" />
+  </g>
+  <g fill="#3F8F6F" opacity="0.5">
+    <circle cx="170" cy="180" r="9" />
+    <circle cx="700" cy="430" r="8" />
+    <circle cx="140" cy="330" r="6" />
+  </g>
+  <rect x="140" y="460" width="520" height="14" rx="7" fill="#C9DED2" />
+  <rect x="250" y="474" width="300" height="46" rx="10" fill="#DCEDE3" />
+</svg>

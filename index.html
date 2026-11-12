@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarogya Village Hospital | Rural Primary Healthcare Services</title>
+  <meta name="description" content="Aarogya Village Hospital provides comprehensive primary healthcare services for rural communities, including fever and infection treatment, general medicine, maternal and child healthcare, hypertension and diabetes management, minor procedures, laboratory diagnostics, and in-house pharmacy services." />
+  <meta name="keywords" content="village hospital, primary care, rural healthcare, Aarogya Village Hospital, medical clinic, doctor, nurse, health services" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#1D5B45" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231D5B45'/%3E%3Cg fill='%23FFFFFF'%3E%3Crect x='27' y='14' width='10' height='36' rx='4'/%3E%3Crect x='14' y='27' width='36' height='10' rx='4'/%3E%3C/g%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ======================== HEADER ======================== -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Aarogya Village Hospital — Home">
+        <div class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M10 2h4v8h8v4h-8v8h-4v-8H2v-4h8z"/></svg>
+        </div>
+        <div class="logo-text">Aarogya<small>Village Hospital</small></div>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-menu">
+          <li><a class="nav-link nav-link--active" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="doctors.html">Doctors</a></li>
+          <li><a class="nav-link" href="facilities.html">Facilities</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+          <li><a class="nav-link nav-link--book" href="contact.html">Book Appointment</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <button class="mobile-nav__close" id="mobileNavClose" aria-label="Close menu">&#10005;</button>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item"><a href="index.html" class="mobile-nav__link mobile-nav__link--active">Home</a></li>
+      <li class="mobile-nav__item"><a href="about.html" class="mobile-nav__link">About Us</a></li>
+      <li class="mobile-nav__item"><a href="services.html" class="mobile-nav__link">Services</a></li>
+      <li class="mobile-nav__item"><a href="doctors.html" class="mobile-nav__link">Doctors</a></li>
+      <li class="mobile-nav__item"><a href="facilities.html" class="mobile-nav__link">Facilities</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__book">Book Appointment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero" aria-label="Welcome">
+    <div class="hero__bg">
+      <img src="assets/images/hero.svg" alt="Two-storey Aarogya Village Hospital building with garden entrance" width="1600" height="900" loading="eager" />
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__content reveal">
+        <div class="hero__eyebrow">Village Health Care</div>
+        <h1>Comprehensive Primary Care for Rural Families</h1>
+        <p class="hero__subtitle">
+          Aarogya Village Hospital provides essential healthcare services in your community, including fever and infection treatment, general medicine, child and maternal care, hypertension and diabetes management, minor wound care, laboratory diagnostics, and on-site pharmacy services.
+        </p>
+        <div class="hero__cta">
+          <a href="contact.html" class="btn btn--primary">Book a Visit</a>
+          <a href="services.html" class="btn btn--outline">See Our Services</a>
+        </div>
+        <div class="hero__meta">
+          <div class="hero__meta-item">
+            <div class="hero__meta-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>
+            </div>
+            <div><strong>9 AM – 2 PM &amp; 5 – 9 PM</strong>Daily OPD</div>
+          </div>
+          <div class="hero__meta-item">
+            <div class="hero__meta-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+            </div>
+            <div><strong>9100527275</strong>OPD Booking</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== INFO STRIP ======================== -->
+  <section class="info-strip">
+    <div class="container">
+      <div class="info-strip__grid">
+        <div class="info-strip__item">
+          <div class="info-strip__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>
+          </div>
+          <div><h4>OPD Timings</h4><p>9 AM – 2 PM · 5 PM – 9 PM (Mon–Sat)</p></div>
+        </div>
+        <div class="info-strip__item">
+          <div class="info-strip__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.4 9.7 8 10 4.6-.3 8-5 8-10V6zm0 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 13a7.7 7.7 0 0 1-5-1.8c.3-1.7 3.3-2.7 5-2.7s4.7 1 5 2.7A7.7 7.7 0 0 1 12 19z"/></svg>
+          </div>
+          <div><h4>First Aid &amp; Emergency</h4><p>Day-time emergency care · Night referral support from 9100527275</p></div>
+        </div>
+        <div class="info-strip__item">
+          <div class="info-strip__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-6v-2h5V8H4v9h5v2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm7 2h2v3h3v2h-3v3h-2v-3H8v-2h3z"/></svg>
+          </div>
+          <div><h4>In-House Pharmacy</h4><p>Common medicines available on site</p></div>
+        </div>
+        <div class="info-strip__item">
+          <div class="info-strip__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 2v2h1v5H7a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-7a3 3 0 0 0-3-3h-3V4h1V2zm-2 9h10a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
+          </div>
+          <div><h4>Basic Lab Tests</h4><p>BP, sugar, malaria, dengue &amp; more</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SERVICES PREVIEW ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Everyday Care</span>
+        <h2>Treatment for common village problems</h2>
+        <p>From fever that won't go down to monthly BP and sugar checks — we handle the day-to-day health of your whole family.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-card__media"><img src="assets/images/fever-check.svg" alt="Nurse checking a patient's temperature in the fever clinic" loading="lazy" width="800" height="600" /></div>
+          <div class="service-card__body">
+            <span class="card__tag">Most Visited</span>
+            <h3>Fever &amp; Infection Clinic</h3>
+            <p>Malaria, dengue, typhoid, viral fever and routine infections — tested fast, treated properly.</p>
+            <ul class="chip-list"><li>Viral fever</li><li>Dengue</li><li>Malaria</li><li>Typhoid</li></ul>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__media"><img src="assets/images/general-checkup.svg" alt="Doctor examining a patient during general checkup" loading="lazy" width="800" height="600" /></div>
+          <div class="service-card__body">
+            <span class="card__tag">OPD</span>
+            <h3>General Medicine</h3>
+            <p>Cold, cough, body pain, acidity, allergies and any general weakness — see a doctor the same day.</p>
+            <ul class="chip-list"><li>Cold &amp; cough</li><li>Body pain</li><li>Allergies</li></ul>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__media"><img src="assets/images/child-care.svg" alt="Doctor checking a child with stethoscope while mother watches" loading="lazy" width="800" height="600" /></div>
+          <div class="service-card__body">
+            <span class="card__tag">0–12 Years</span>
+            <h3>Child Care</h3>
+            <p>Fever in children, vaccinations, weakness and growth checkups — handled gently by our child doctor.</p>
+            <ul class="chip-list"><li>Vaccination</li><li>Child fever</li><li>Growth check</li></ul>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__media"><img src="assets/images/women-health.svg" alt="Lady doctor consulting a woman patient" loading="lazy" width="800" height="600" /></div>
+          <div class="service-card__body">
+            <span class="card__tag">Women</span>
+            <h3>Women's Health</h3>
+            <p>ANC checks during pregnancy, monthly problems, weakness and general women's OPD with a lady doctor.</p>
+            <ul class="chip-list"><li>Pregnancy care</li><li>ANC</li><li>Lady doctor</li></ul>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__media"><img src="assets/images/bp-check.svg" alt="Nurse measuring a patient's blood pressure" loading="lazy" width="800" height="600" /></div>
+          <div class="service-card__body">
+            <span class="card__tag">35+ Age</span>
+            <h3>BP &amp; Sugar Clinic</h3>
+            <p>Monthly BP and sugar checks, daily-dose medicine and diet advice to keep BP and diabetes under control.</p>
+            <ul class="chip-list"><li>Blood pressure</li><li>Diabetes</li><li>Diet advice</li></ul>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__media"><img src="assets/images/wound-care.svg" alt="Nurse dressing a minor wound on a patient's arm" loading="lazy" width="800" height="600" /></div>
+          <div class="service-card__body">
+            <span class="card__tag">Quick Help</span>
+            <h3>Minor Wounds &amp; Dressing</h3>
+            <p>Cuts, burns, small injuries and stitches for minor wounds — clean dressing and tetanus cover.</p>
+            <ul class="chip-list"><li>Cuts</li><li>Burns</li><li>Tetanus</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <p class="text-center" style="margin-top:var(--sp-10);">
+        <a href="services.html" class="btn btn--soft">View all services &amp; test rates</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================== NO SURGERY NOTE ======================== -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="split">
+        <div class="split__media reveal">
+          <img src="assets/images/general-checkup.svg" alt="Doctor with stethoscope during a routine consultation" loading="lazy" width="800" height="600" />
+          <div class="split__badge"><strong>2</strong><span>Floors of care</span></div>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow" style="color:var(--secondary); font-weight:600; letter-spacing:0.14em; text-transform:uppercase; font-size:var(--fs-sm);">Honest Care</span>
+          <h2>We treat what a village actually needs</h2>
+          <p>We are a small OPD hospital — not a surgical centre. If a case needs surgery or advanced care, we honestly refer you to the district hospital instead of doing unnecessary procedures here.</p>
+          <ul class="check-list">
+            <li>Fever, infections and seasonal diseases — tested &amp; treated in-house</li>
+            <li>BP, sugar and thyroid long-term follow-up with monthly medicines</li>
+            <li>Child vaccination as per the government immunisation chart</li>
+            <li>Pregnancy ANC checkups with mother-and-baby monitoring</li>
+            <li>Minor dressing, stitches for small wounds, tetanus injection</li>
+            <li>Honest referral for surgical or serious cases — no fake treatment</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Consult a Doctor</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== STATS ======================== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="25000+">0</div>
+          <div class="stat-card__label">Patients Treated</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="12+">0</div>
+          <div class="stat-card__label">Years in the Village</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="60+">0</div>
+          <div class="stat-card__label">Patients Per Day</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number" data-target="15">0</div>
+          <div class="stat-card__label">Ward Beds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== DOCTORS PREVIEW ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Our Doctors</span>
+        <h2>Doctors who know the village</h2>
+        <p>Three full-time doctors, available through the day — the same familiar faces at every visit.</p>
+      </div>
+      <div class="doctor-grid">
+        <article class="doctor-card reveal">
+          <div class="doctor-card__media"><img src="assets/images/doctor-ramesh.svg" alt="Dr. Ramesh Kumar, general physician" loading="lazy" width="800" height="600" /></div>
+          <div class="doctor-card__body">
+            <h3>Dr. Ramesh Kumar</h3>
+            <div class="doctor-card__spec">MBBS · General Physician</div>
+            <ul class="doctor-card__meta">
+              <li><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>OPD: 9 AM – 2 PM</li>
+              <li><svg viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.4 9.7 8 10 4.6-.3 8-5 8-10V6z"/></svg>15+ years experience</li>
+            </ul>
+            <p>Fever, infections, BP &amp; general problems.</p>
+          </div>
+          <div class="doctor-card__foot"><a href="contact.html" class="btn btn--soft btn--full">Book Visit</a></div>
+        </article>
+
+        <article class="doctor-card reveal">
+          <div class="doctor-card__media"><img src="assets/images/doctor-priya.svg" alt="Dr. Priya Sharma, child and women's health doctor" loading="lazy" width="800" height="600" /></div>
+          <div class="doctor-card__body">
+            <h3>Dr. Priya Sharma</h3>
+            <div class="doctor-card__spec">MBBS, DCH · Child &amp; Women's Health</div>
+            <ul class="doctor-card__meta">
+              <li><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>OPD: 5 PM – 9 PM</li>
+              <li><svg viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.4 9.7 8 10 4.6-.3 8-5 8-10V6z"/></svg>9+ years experience</li>
+            </ul>
+            <p>Vaccination, child fever, pregnancy ANC.</p>
+          </div>
+          <div class="doctor-card__foot"><a href="contact.html" class="btn btn--soft btn--full">Book Visit</a></div>
+        </article>
+
+        <article class="doctor-card reveal">
+          <div class="doctor-card__media"><img src="assets/images/doctor-suresh.svg" alt="Dr. Suresh Babu, senior physician" loading="lazy" width="800" height="600" /></div>
+          <div class="doctor-card__body">
+            <h3>Dr. Suresh Babu</h3>
+            <div class="doctor-card__spec">MBBS, MD · Medicine</div>
+            <ul class="doctor-card__meta">
+              <li><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>OPD: 10 AM – 1 PM</li>
+              <li><svg viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.4 9.7 8 10 4.6-.3 8-5 8-10V6z"/></svg>22+ years experience</li>
+            </ul>
+            <p>Senior BP, sugar &amp; long-term illness follow-up.</p>
+          </div>
+          <div class="doctor-card__foot"><a href="contact.html" class="btn btn--soft btn--full">Book Visit</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== TESTIMONIALS ======================== -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Village Says</span>
+        <h2>Trusted by local families</h2>
+        <p>What patients from nearby villages say about their visits.</p>
+      </div>
+      <div class="grid-3">
+        <div class="testimonial reveal">
+          <p>My son's fever came down the same evening after the test. The doctor explained everything in our language and did not charge extra for anything.</p>
+          <div class="testimonial__who">
+            <div class="testimonial__avatar">SL</div>
+            <div><strong>Suresh Lal</strong><span>Rampur Village</span></div>
+          </div>
+        </div>
+        <div class="testimonial reveal">
+          <p>I come every month for my BP and sugar. The medicine shop is right inside, so one visit finishes everything — very convenient for elderly people.</p>
+          <div class="testimonial__who">
+            <div class="testimonial__avatar">GD</div>
+            <div><strong>Ganga Devi</strong><span>Near Bus Stand</span></div>
+          </div>
+        </div>
+        <div class="testimonial reveal">
+          <p>During my pregnancy, all ANC checkups were done here by the lady doctor. They referred us to the city only when it was really needed.</p>
+          <div class="testimonial__who">
+            <div class="testimonial__avatar">PK</div>
+            <div><strong>Pooja Kumari</strong><span>Sundarpur</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CTA ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Not feeling well? Book your visit today.</h2>
+        <p>Choose convenient OPD access — walk-in anytime or pre-book to reduce waiting time for you and your family.</p>
+        <div style="display:flex; gap:var(--sp-6); justify-content:center; flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn--white" style="padding: var(--sp-5) var(--sp-8); font-size: var(--fs-base);">Book an Appointment</a>
+          <a href="tel:+919100527275" class="btn btn--accent" style="padding: var(--sp-5) var(--sp-8); font-size: var(--fs-base);">Call +91 9100527275</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo" aria-label="Aarogya Village Hospital">
+            <div class="logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M10 2h4v8h8v4h-8v8h-4v-8H2v-4h8z"/></svg>
+            </div>
+            <div class="logo-text">Aarogya<small>Village Hospital</small></div>
+          </a>
+          <p>A small 2-floor hospital serving village families with honest OPD care — fever, common illness, BP, sugar, child and women's health.</p>
+          <p style="font-size:var(--fs-sm);"><strong style="color:var(--accent);">Note:</strong> We do not perform surgery. Serious cases are honestly referred to the district hospital.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Fever &amp; Infection</a></li>
+            <li><a href="services.html">General Medicine</a></li>
+            <li><a href="services.html">Child Care</a></li>
+            <li><a href="services.html">Women's Health</a></li>
+            <li><a href="services.html">BP &amp; Sugar Clinic</a></li>
+            <li><a href="services.html">Lab &amp; Pharmacy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Visit Us</h4>
+          <ul class="footer-links footer-contact">
+            <li>Main Road, Rampur Village,<br />Block Office Lane, 400000</li>
+            <li><a href="tel:+919100527275">+91 9100527275</a></li>
+            <li><a href="mailto:care@aarogyahospital.in">care@aarogyahospital.in</a></li>
+            <li>OPD: 9 AM – 2 PM · 5 PM – 9 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Aarogya Village Hospital. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fab-whatsapp" href="https://wa.me/919100527275?text=Hello%2C%20I%20want%20to%20book%20an%20OPD%20visit" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.3-.1.6.1.3.7 1.2 1.5 1.9 1 .9 1.9 1.2 2.2 1.3.2.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l2 1c.3.1.4.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
