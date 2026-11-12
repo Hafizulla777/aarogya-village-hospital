@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
   <defs>
     <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#F4FAF6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E3F0E9;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#F4F9FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E1EDF9;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#F2F7F4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3F7FB;stop-opacity:1" />
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#sky)" />
@@ -14,41 +14,41 @@
   <ellipse cx="380" cy="150" rx="110" ry="38" fill="#FFFFFF" opacity="0.9" />
   <ellipse cx="500" cy="170" rx="80" ry="28" fill="#FFFFFF" opacity="0.8" />
   <ellipse cx="1100" cy="120" rx="95" ry="32" fill="#FFFFFF" opacity="0.85" />
-  <rect y="700" width="1600" height="200" fill="#DCEDE3" />
-  <path d="M0 700 Q 400 660 800 700 T 1600 700 L 1600 760 L 0 760 Z" fill="#CFE7DB" />
+  <rect y="700" width="1600" height="200" fill="#D5E7F8" />
+  <path d="M0 700 Q 400 660 800 700 T 1600 700 L 1600 760 L 0 760 Z" fill="#CFE3F5" />
   <g>
-    <rect x="430" y="300" width="740" height="420" rx="14" fill="url(#wall)" stroke="#C9DED2" stroke-width="4" />
-    <rect x="430" y="300" width="740" height="70" rx="14" fill="#1D5B45" />
-    <rect x="430" y="352" width="740" height="18" fill="#1D5B45" />
-    <rect x="470" y="240" width="660" height="70" rx="12" fill="#3F8F6F" />
+    <rect x="430" y="300" width="740" height="420" rx="14" fill="url(#wall)" stroke="#C9DCF0" stroke-width="4" />
+    <rect x="430" y="300" width="740" height="70" rx="14" fill="#0E5AA7" />
+    <rect x="430" y="352" width="740" height="18" fill="#0E5AA7" />
+    <rect x="470" y="240" width="660" height="70" rx="12" fill="#2E86D8" />
     <g fill="#FFFFFF">
       <rect x="775" y="255" width="50" height="16" rx="8" />
       <rect x="792" y="238" width="16" height="50" rx="8" />
     </g>
-    <rect x="500" y="420" width="110" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="660" y="420" width="110" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" <path d="M715 420 L715 510 M660 465 L770 465" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="820" y="420" width="110" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" />
-    <path d="M875 420 L875 510 M820 465 L930 465" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="980" y="420" width="110" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" />
-    <path d="M1035 420 L1035 510 M980 465 L1090 465" stroke="#B7D6C6" stroke-width="3" />
-    <path d="M715 420 L715 510 M660 465 L770 465" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="500" y="570" width="110" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" />
-    <path d="M555 570 L555 660 M500 615 L610 615" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="660" y="570" width="110" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" />
-    <path d="M715 570 L715 660 M660 615 L770 615" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="830" y="560" width="140" height="160" rx="10" fill="#1D5B45" />
-    <rect x="845" y="575" width="110" height="145" rx="8" fill="#EAF4EE" />
-    <path d="M900 575 L900 720" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="1010" y="570" width="80" height="90" rx="8" fill="#CFE7DB" stroke="#B7D6C6" stroke-width="3" />
-    <path d="M1050 570 L1050 660 M1010 615 L1090 615" stroke="#B7D6C6" stroke-width="3" />
-    <rect x="770" y="395" width="60" height="60" rx="12" fill="#EAF4EE" stroke="#3F8F6F" stroke-width="4" />
+    <rect x="500" y="420" width="110" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="660" y="420" width="110" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" <path d="M715 420 L715 510 M660 465 L770 465" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="820" y="420" width="110" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" />
+    <path d="M875 420 L875 510 M820 465 L930 465" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="980" y="420" width="110" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" />
+    <path d="M1035 420 L1035 510 M980 465 L1090 465" stroke="#BFD8F0" stroke-width="3" />
+    <path d="M715 420 L715 510 M660 465 L770 465" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="500" y="570" width="110" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" />
+    <path d="M555 570 L555 660 M500 615 L610 615" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="660" y="570" width="110" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" />
+    <path d="M715 570 L715 660 M660 615 L770 615" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="830" y="560" width="140" height="160" rx="10" fill="#0E5AA7" />
+    <rect x="845" y="575" width="110" height="145" rx="8" fill="#E9F2FB" />
+    <path d="M900 575 L900 720" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="1010" y="570" width="80" height="90" rx="8" fill="#CFE3F5" stroke="#BFD8F0" stroke-width="3" />
+    <path d="M1050 570 L1050 660 M1010 615 L1090 615" stroke="#BFD8F0" stroke-width="3" />
+    <rect x="770" y="395" width="60" height="60" rx="12" fill="#E9F2FB" stroke="#2E86D8" stroke-width="4" />
     <g fill="#D9534F">
       <rect x="792" y="405" width="16" height="40" rx="5" />
       <rect x="782" y="415" width="36" height="16" rx="5" />
     </g>
-    <rect x="410" y="712" width="780" height="14" rx="7" fill="#B7D6C6" />
-    <path d="M740 726 L740 780 L880 780 L880 726" fill="#EAF4EE" />
-    <rect x="735" y="776" width="150" height="10" rx="5" fill="#C9DED2" />
+    <rect x="410" y="712" width="780" height="14" rx="7" fill="#BFD8F0" />
+    <path d="M740 726 L740 780 L880 780 L880 726" fill="#E9F2FB" />
+    <rect x="735" y="776" width="150" height="10" rx="5" fill="#C9DCF0" />
   </g>
   <g>
     <rect x="240" y="560" width="26" height="150" rx="8" fill="#8A6A4F" />

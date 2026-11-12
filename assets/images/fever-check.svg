@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <rect width="800" height="600" fill="#EAF4EE" />
-  <circle cx="660" cy="110" r="150" fill="#DCEDE3" />
-  <circle cx="110" cy="520" r="130" fill="#DCEDE3" />
-  <rect x="140" y="120" width="520" height="330" rx="18" fill="#FFFFFF" stroke="#C9DED2" stroke-width="3" />
+  <rect width="800" height="600" fill="#E9F2FB" />
+  <circle cx="660" cy="110" r="150" fill="#D5E7F8" />
+  <circle cx="110" cy="520" r="130" fill="#D5E7F8" />
+  <rect x="140" y="120" width="520" height="330" rx="18" fill="#FFFFFF" stroke="#C9DCF0" stroke-width="3" />
   <g>
     <circle cx="300" cy="220" r="42" fill="#F2C9A8" />
     <path d="M258 214 a42 42 0 0 1 84 0 l-10 -6 a32 32 0 0 0 -64 0 Z" fill="#3A2E28" />
-    <path d="M240 420 v-90 a60 60 0 0 1 120 0 v90 Z" fill="#3F8F6F" />
+    <path d="M240 420 v-90 a60 60 0 0 1 120 0 v90 Z" fill="#2E86D8" />
     <path d="M300 330 h0" />
     <rect x="272" y="330" width="56" height="46" rx="10" fill="#FFFFFF" opacity="0.9" />
-    <circle cx="300" cy="352" r="10" fill="#3F8F6F" />
+    <circle cx="300" cy="352" r="10" fill="#2E86D8" />
     <path d="M360 350 q60 -10 90 -50" stroke="#F2C9A8" stroke-width="20" stroke-linecap="round" fill="none" />
-    <rect x="436" y="286" width="16" height="34" rx="8" fill="#1D5B45" transform="rotate(35 444 303)" />
+    <rect x="436" y="286" width="16" height="34" rx="8" fill="#0E5AA7" transform="rotate(35 444 303)" />
   </g>
   <g>
     <circle cx="530" cy="250" r="38" fill="#F5D6BC" />
     <path d="M492 246 a38 38 0 0 1 76 0 l-8 -8 q-30 -14 -60 0 Z" fill="#2B2B2B" />
-    <path d="M478 430 v-70 a52 52 0 0 1 104 0 v70 Z" fill="#FFFFFF" stroke="#C9DED2" stroke-width="3" />
-    <path d="M500 372 h60" stroke="#C9DED2" stroke-width="3" />
-    <path d="M478 430 h104" stroke="#C9DED2" stroke-width="3" />
+    <path d="M478 430 v-70 a52 52 0 0 1 104 0 v70 Z" fill="#FFFFFF" stroke="#C9DCF0" stroke-width="3" />
+    <path d="M500 372 h60" stroke="#C9DCF0" stroke-width="3" />
+    <path d="M478 430 h104" stroke="#C9DCF0" stroke-width="3" />
   </g>
   <g>
-    <rect x="90" y="300" width="60" height="150" rx="10" fill="#FFFFFF" stroke="#C9DED2" stroke-width="3" />
-    <rect x="104" y="316" width="32" height="60" rx="6" fill="#EAF4EE" />
+    <rect x="90" y="300" width="60" height="150" rx="10" fill="#FFFFFF" stroke="#C9DCF0" stroke-width="3" />
+    <rect x="104" y="316" width="32" height="60" rx="6" fill="#E9F2FB" />
     <rect x="112" y="330" width="16" height="32" rx="8" fill="#D9534F" opacity="0.85" />
-    <circle cx="120" cy="410" r="18" fill="#3F8F6F" />
+    <circle cx="120" cy="410" r="18" fill="#2E86D8" />
   </g>
   <g>
-    <rect x="590" y="150" width="120" height="120" rx="16" fill="#1D5B45" />
+    <rect x="590" y="150" width="120" height="120" rx="16" fill="#0E5AA7" />
     <g fill="#FFFFFF">
       <rect x="638" y="172" width="24" height="76" rx="10" />
       <rect x="612" y="198" width="76" height="24" rx="10" />
     </g>
   </g>
-  <g fill="#3F8F6F" opacity="0.55">
+  <g fill="#2E86D8" opacity="0.55">
     <circle cx="690" cy="470" r="10" />
     <circle cx="720" cy="500" r="7" />
     <circle cx="90" cy="180" r="9" />
   </g>
-  <rect x="140" y="450" width="520" height="14" rx="7" fill="#C9DED2" />
-  <rect x="240" y="464" width="320" height="46" rx="10" fill="#DCEDE3" />
+  <rect x="140" y="450" width="520" height="14" rx="7" fill="#C9DCF0" />
+  <rect x="240" y="464" width="320" height="46" rx="10" fill="#D5E7F8" />
 </svg>
