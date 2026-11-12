@@ -208,31 +208,57 @@
   // ------------------------------------------------------------------
   const revealEls = document.querySelectorAll('.reveal, .stat-card');
 
+  function showEl(el) {
+    if (el.classList.contains('is-visible')) return;
+    el.classList.add('is-visible');
+    if (el.classList.contains('stat-card')) {
+      const num = el.querySelector('.stat-card__number');
+      if (num && !num.dataset.animated) {
+        num.dataset.animated = 'true';
+        animateCounter(num);
+      }
+    }
+  }
+
+  function pastOrInView(el) {
+    const r = el.getBoundingClientRect();
+    const vh = window.innerHeight || 0;
+    // Reveal if visible or already scrolled past, so fast scrolling can
+    // never strand content at opacity 0.
+    return r.top < vh - 40;
+  }
+
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
-        entry.target.classList.add('is-visible');
-
-        if (entry.target.classList.contains('stat-card')) {
-          const num = entry.target.querySelector('.stat-card__number');
-          if (num && !num.dataset.animated) {
-            num.dataset.animated = 'true';
-            animateCounter(num);
-          }
-        }
+        showEl(entry.target);
         io.unobserve(entry.target);
       });
     }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
 
     revealEls.forEach((el) => io.observe(el));
-  } else {
+  }
+
+  // Fallback: works even if IntersectionObserver never fires (privacy
+  // extensions, odd browsers). Uses getBoundingClientRect + scroll, so the
+  // reveal animation still plays progressively instead of all at once.
+  let revealTick = false;
+  function revealFallback() {
+    revealTick = false;
     revealEls.forEach((el) => {
-      el.classList.add('is-visible');
-      const num = el.querySelector && el.querySelector('.stat-card__number');
-      if (num) animateCounter(num);
+      if (!el.classList.contains('is-visible') && pastOrInView(el)) showEl(el);
     });
   }
+  function queueReveal() {
+    if (revealTick) return;
+    revealTick = true;
+    setTimeout(revealFallback, 120);
+  }
+  window.addEventListener('scroll', queueReveal, { passive: true });
+  window.addEventListener('resize', queueReveal, { passive: true });
+  setTimeout(revealFallback, 400);
+  setTimeout(revealFallback, 1600);
 
   // ------------------------------------------------------------------
   // Visit date minimum = today

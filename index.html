@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231D5B45'/%3E%3Cg fill='%23FFFFFF'%3E%3Crect x='27' y='14' width='10' height='36' rx='4'/%3E%3Crect x='14' y='27' width='36' height='10' rx='4'/%3E%3C/g%3E%3C/svg%3E" />
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
@@ -58,33 +59,56 @@
 
   <!-- ======================== HERO ======================== -->
   <section class="hero" aria-label="Welcome">
-    <div class="hero__bg">
-      <img src="assets/images/hero.svg" alt="Two-storey Aarogya Village Hospital building with garden entrance" width="1600" height="900" loading="eager" />
+    <div class="hero__deco" aria-hidden="true">
+      <span class="hero__blob hero__blob--1"></span>
+      <span class="hero__blob hero__blob--2"></span>
+      <span class="hero__dots"></span>
     </div>
-    <div class="hero__overlay" aria-hidden="true"></div>
     <div class="container">
-      <div class="hero__content reveal">
-        <div class="hero__eyebrow">Village Health Care</div>
-        <h1>Comprehensive Primary Care for Rural Families</h1>
-        <p class="hero__subtitle">
-          Aarogya Village Hospital provides essential healthcare services in your community, including fever and infection treatment, general medicine, child and maternal care, hypertension and diabetes management, minor wound care, laboratory diagnostics, and on-site pharmacy services.
-        </p>
-        <div class="hero__cta">
-          <a href="contact.html" class="btn btn--primary">Book a Visit</a>
-          <a href="services.html" class="btn btn--outline">See Our Services</a>
-        </div>
-        <div class="hero__meta">
-          <div class="hero__meta-item">
-            <div class="hero__meta-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>
-            </div>
-            <div><strong>9 AM – 2 PM &amp; 5 – 9 PM</strong>Daily OPD</div>
+      <div class="hero__grid">
+        <div class="hero__content reveal">
+          <div class="hero__eyebrow">Village Health Care</div>
+          <h1>Comprehensive Primary Care for <em>Rural Families</em></h1>
+          <p class="hero__subtitle">
+            Aarogya Village Hospital provides essential healthcare services in your community — fever and infection
+            treatment, general medicine, child and maternal care, BP and sugar management, minor wound care, laboratory
+            diagnostics and an on-site pharmacy.
+          </p>
+          <div class="hero__cta">
+            <a href="contact.html" class="btn btn--primary">Book a Visit</a>
+            <a href="services.html" class="btn btn--outline">See Our Services</a>
           </div>
-          <div class="hero__meta-item">
-            <div class="hero__meta-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+          <div class="hero__meta">
+            <div class="hero__meta-item">
+              <div class="hero__meta-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6V7h-2v6.4l4.5 2.7 1-1.7z"/></svg>
+              </div>
+              <div><strong>9 AM – 2 PM &amp; 5 – 9 PM</strong>Daily OPD</div>
             </div>
-            <div><strong>9100527275</strong>OPD Booking</div>
+            <div class="hero__meta-item">
+              <div class="hero__meta-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+              </div>
+              <div><strong>9100527275</strong>OPD Booking</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__frame">
+            <img src="assets/images/hero.svg" alt="Two-storey Aarogya Village Hospital building with garden entrance" width="1600" height="900" loading="eager" />
+          </div>
+          <div class="hero__float hero__float--top">
+            <div class="hero__float-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.4 9.7 8 10 4.6-.3 8-5 8-10V6zm0 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+            </div>
+            <div><strong>25,000+</strong><span>Patients Treated</span></div>
+          </div>
+          <div class="hero__float hero__float--bottom">
+            <div class="hero__float-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M9 2v2h1v5H7a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-7a3 3 0 0 0-3-3h-3V4h1V2zm-2 9h10a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
+            </div>
+            <div><strong>In-House Lab</strong><span>Reports in 1–3 Hours</span></div>
           </div>
         </div>
       </div>
